@@ -18,6 +18,7 @@
   color: #161616;
   font-weight: 700;
   padding: .9rem 0;
+  width: 75%;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
@@ -85,7 +86,7 @@
   width: 100%;
   height: auto;
   min-height: 35rem;
-  padding: 15rem 0;
+  padding: 10rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-masthead.jpg");
   background: linear-gradient(to bottom,rgba(22,22,22,0) 0,rgba(255,255,255,0) 90%,#5cb282 100%),url(../img/bg-masthead.jpg);
   background-position: center;
@@ -212,6 +213,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  display: none;
 }
 
 .signup-section .form-inline input {
@@ -285,7 +287,7 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #4a3a4a !important;
 }
 
 .bg-primary {
@@ -305,7 +307,7 @@ footer {
 }
 
 .slackpoints-graphic{
-  width: 7%;
+  width: 10%;
 }
 
 .add-to-slack {
