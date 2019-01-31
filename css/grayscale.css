@@ -213,7 +213,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  display: none;
+
 }
 
 .signup-section .form-inline input {
@@ -314,4 +314,8 @@ footer {
   width: 33%;
   height: auto;
   margin-bottom: 3.5rem;
+}
+
+.bg-light50{
+  background-color: #e5b54b;
 }
