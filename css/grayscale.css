@@ -175,7 +175,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 8rem 0;
 }
 
 .projects-section .featured-text {
@@ -304,6 +304,12 @@ footer {
 
 .slackpoints-logo-header{
   width: 90%;
+}
+
+@media (max-width: 420px) {
+  .slackpoints-graphic{
+    display: none;
+  }
 }
 
 .slackpoints-graphic{
