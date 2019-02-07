@@ -310,6 +310,9 @@ footer {
   .slackpoints-graphic{
     display: none;
   }
+  .navbar-brand{
+    display: none;
+  }
 }
 
 .slackpoints-graphic{
