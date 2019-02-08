@@ -24,12 +24,12 @@
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#b6b6b6, 80%);
   outline: none;
-  background-color: transparent;
+  background-color: white;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
-  background-color: transparent;
+  background-color: white;
 }
 
 @media (min-width: 992px) {
@@ -37,7 +37,7 @@
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: white;
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
@@ -244,6 +244,7 @@
 
 .contact-section {
   padding: 5rem 0 0;
+  background-color: #4c394b;
 }
 
 .contact-section .card {
