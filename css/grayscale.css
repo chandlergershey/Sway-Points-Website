@@ -364,9 +364,15 @@ footer {
     .demo-mobile {
         display:none;
     }
+    .demo-desktop{
+      display:block;
+    }
 }
 @media screen and (max-width:480px) {
     .demo-desktop {
         display:none;
+    }
+    .demo-mobile{
+      display:block;
     }
 }
