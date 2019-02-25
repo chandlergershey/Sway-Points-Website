@@ -359,3 +359,14 @@ footer {
 .trevoremail{
   padding-top: 2.5rem;
 }
+
+@media screen and (min-width:481px) {
+    .demo-mobile {
+        display:none;
+    }
+}
+@media screen and (max-width:480px) {
+    .demo-desktop {
+        display:none;
+    }
+}
